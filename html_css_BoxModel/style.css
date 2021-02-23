@@ -1,29 +1,49 @@
 * {
     box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
   }
   
-  .container {
-    width: 500px;
-    height: 500px;
-  }
-  
-  .info {
-      height: 220px;
-      border: 3px solid #B72920;
-      overflow: scroll;
-      padding: 15px
-  }
-  
-  img {
-    width: 100%;
-    display: block;
-  }
-  
-  h1 {
+  body {
     margin: 0;
+    background-color: #1BBC9B;
+  }
+  
+  .login-form {
+      background-color: #EEEFF1;
+      margin: auto;
+      padding: 20px;
+      border-radius: 5px;
+      width: 300px;
+  }
+  
+  .text-field {
+    font-size: 14px;
+    border: none;
+    width: 260px;
     margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
   }
   
-  p {
-    margin: 0;
+  .submit-btn {
+    font-size: 14px;
+    background-color: #1BBC9B;
+    border: none;
+    width: 260px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .links {
+      text-decoration: none;
+      text-align: center;
+  }
+  
+  .links a {
+    font-size: 12px;
+    color: #9B9B9B;
+    text-decoration: none;
   }
