@@ -1,0 +1,19 @@
+.div1 p:nth-child(3) {
+    color: teal;
+}
+
+.div1 p:first-child {
+    color: tomato;
+}
+
+.div1 p:last-child {
+    color: violet;
+}
+
+.div1 p:not(:last-child) {
+    font-size: 300%;
+}
+
+.div1 p:not(:first-child) {
+    text-decoration: line-through;
+}
