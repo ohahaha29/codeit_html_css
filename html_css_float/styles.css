@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Jua";
+}
+
+body {
+    background-color: #F0E8D9;
+}
+
+h1 {
+    font-size: 64px;
+    color: #58595B;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #58595B;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.food-container {
+    width: 660px; /**이미지 한 개당 300px -> 이미지 두 개만 들어갈 수 있도록 사이즈 조정함**/
+    margin-left: auto; /****/
+    margin-right: auto; /****/
+}
+
+.food {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+    float: left; /****/
+    margin-left: 15px; /****/
+    margin-right: 15px; /****/
+}
+
+.food .info {
+    padding: 20px;
+    text-align: center;
+}
+
+.food h3 {
+    color: #58595B;
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.food p {
+    font-size: 16px;
+    color: #58595B;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.food a {
+    font-size: 16px;
+    color: #0000EE;
+    text-decoration: none;
+}
