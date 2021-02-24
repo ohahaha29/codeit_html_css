@@ -1,22 +1,67 @@
 body {
-    margin: 50px 0;
-}
-
-h1 {
-    font-family: 'Noto Sans KR', sans-serif;
     margin: 0;
-    margin-bottom: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image: url("../html_css_display/images/hero_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#navbar {
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+    height: 60px;
+}
+
+#logo {
+    display: block;
+    font-family: serif;
+    float: left;
+    line-height: 60px; /**2번**/
+}
+
+#logo img {
+    vertical-align: middle; /**1번**/
+}
+
+.hero-header {
+    background-image: url("../images/hero_image.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 670px;
     text-align: center;
+    line-height: 670px; /**3번**/
 }
 
-.link-container {
-    text-align: center;
+.hero-header .info {
+    line-height: normal; /**4번 .hero-header의 line-height가 상속되지 않도록 하는 방법**/
+    display: inline-block; /**1번**/
+    vertical-align: middle; /**2번**/
 }
 
-.link-container a:not(:last-child) {
-    margin-right: 20px;
+.hero-header .info h1 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 13px;
+    color: white;
+    font-weight: 400;
 }
 
-.link-container a {
+.hero-header .info h2 {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 60px;
+    color: white;
+    font-weight: 400;
+}
+
+.hero-header .info a {
+    font-size: 14px;
+    background-color: white;
+    color: #464273;
+    padding: 10px 40px;
     text-decoration: none;
+    border-radius: 5px;
 }
