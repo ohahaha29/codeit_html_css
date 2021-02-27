@@ -145,7 +145,7 @@ body {
 
 /* 데스크탑 */
 @media (min-width: 992px) {
-    col {
+    .col {
         float: left;
     }
 
